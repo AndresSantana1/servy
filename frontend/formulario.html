@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- comente esta parte porque tenia una version antigua de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js" defer=""></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" defer=""></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Geologica:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>  
+   <!--  elimine el type="module" -->
+    <script src="js/app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+<style>
+  .cuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .cuadro > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  label{
+    text-align: right;
+    padding-right: 10px;
+  }
+</style>    
+
+    <div class="cuadro">
+
+          <div class="cuadro form-group">
+            <label for="nombre">Nombres:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa nombres">
+          </div>
+
+          <div class="form-group">
+            <label for="apellido">Apellidos:</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingresa apellidos">
+          </div>
+          <!-- <div class="form-group">
+            <label for="">Cedula:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa ">
+          </div> -->
+
+          <div class="form-group">
+            <label for="">Celular:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa numero celular">
+          </div>
+
+          <div class="form-group">
+            <label for="">Fecha de nacimiento:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa fecha de nacimiento">
+          </div>
+
+          <div class="form-group">
+            <label for="">Sexo:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa sexo">
+          </div>
+
+          <div class="form-group">
+            <label for="">Direccion:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa direccion domicilio">
+          </div>
+
+          <div class="form-group">
+            <label for="">Ciudad donde vive:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa ciudad donde vives">
+          </div>
+
+          <!-- <div class="form-group">
+            <label for="">Barrio:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa barrio">
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Escribe una descripcion personal:</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingresa una descripcion que te caracterice"></textarea>
+          </div> -->
+          
+          <div class="form-group">
+            <label for="">Correo:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa tu correo">
+          </div>
+
+          <div class="form-group">
+            <label for="">Contraseña:</label>
+            <input type="text" class="form-control" id="" placeholder="Ingresa una contraseña para inicio de sesion">
+          </div>
+    </div>
+
+</body>
+</html>
